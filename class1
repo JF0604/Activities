@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Revisao {
+	//até <2100 isento
+	//se salario <=3000 paga 5%
+	//se salario >=3000 paga 7%
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		String nome = Jf 
+		System.out.println(nome);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite seu nome:");
+		nome = sc.nextLine();
+		
+		System.out.println("Digite seu salário:");
+		float salario = sc.nextFloat();
+		if(salario < 2100) {
+			System.out.println("Você está isento");
+		
+		}else if (salario <= 3000) {
+		     double resultado = salario * 0.05;
+			System.out.println("Vai pagar pouquinho 5%: " + resultado);
+			
+		}else if (salario >= 3000) {
+			 double resultado = salario * 0.07;
+			System.out.println("Vai pagar pra crlh 7%: " + resultado);
+			
+	
+			
+		
+
+		}
+	}
+}
