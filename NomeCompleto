@@ -1,0 +1,28 @@
+//Primeiro Código
+public class Pessoa {
+private String primeironome;
+private String ultimonome;
+private String nomesdomeio;
+ 
+public Pessoa(String primeiro, String meio, String ultimo) {
+
+
+primeironome = primeiro;
+nomesdomeio = meio;
+ultimonome = ultimo;
+}
+public String getNomeCompleto() {
+String nomecompleto = primeironome + "" + nomesdomeio + "" + ultimonome;
+return nomecompleto;
+
+}
+}
+//Segundo Código
+public class ProgramaNome {
+
+	public static void main(String[] args) {
+    Pessoa pessoa = new Pessoa("Joao",  "Felipe",  "Soares");
+   System.out.println(pessoa.getNomeCompleto());
+
+	}
+}
