@@ -1,0 +1,20 @@
+public class Parouimpar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    int valor;
+    Scanner sc = new Scanner(System.in);
+    
+    System.out.println("Digite um Número:");
+    valor = sc.nextInt();
+    
+    if ((valor % 2) == 0);{
+    System.out.println("ESSE NÚMERO É PAR");
+	} 
+    else {
+    System.out.println("ESSE NÚMERO É IMPAR");
+  
+    }
+	}
+
+}
