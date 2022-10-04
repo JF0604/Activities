@@ -1,0 +1,44 @@
+public class telapessoa {
+ 
+	private String nome;
+	private int data;
+	private float telefone;
+	private String endereço;
+	
+    public void setNome (String nome) throws Exception {
+    	if((nome.length() >30) )
+     throw new Exception("Nome inválido. Máximo 30 caracteres");
+    	else 
+    	this.nome = nome;
+    }
+  
+ public void setData  ( int data) throws Exception {
+	 if(data >=2004 || (data <=1922)  )
+throw new Exception("Data de Nascimento inválida");
+	 else
+     this.data = data;
+ }  
+ 
+ public void setTelefone (float telefone) throws Exception {
+ 	 if(telefone <=0 )
+ 		throw new Exception("Telefone inválido");
+ 	 else
+ 	 this.telefone = telefone;	 
+ }
+ public void setEndereco (String endereco) {
+ 	
+ }
+ public String getNome() {
+	return this.nome;
+ }
+ public int getData() {
+	 return this.data;
+ }
+ public float getTelefone() {
+	 return this.telefone;
+ }
+ public String getEndereco() {
+	 return this.endereço;
+ }
+}
+
